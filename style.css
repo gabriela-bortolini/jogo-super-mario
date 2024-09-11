@@ -12,8 +12,15 @@
      position: relative;
      overflow: hidden;
      background: linear-gradient(#87ceeb,#e0f6ff ),
+  }
 
+.pipe, .mario, .nuvem {
+  opacity: opacity 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
+.pepe {
+ position: absolute;
 
 
 
